@@ -27,11 +27,15 @@ function processFirstItem(stringList, callback) {
  * Study the code for counter1 and counter2. Answer the questions below.
  * 
  * 1. What is the difference between counter1 and counter2?
- * 
+ * The difference between counter1 and counter2 is that counter1 is returning a function within the function,
+ * that returns the an incremented count value.
  * 2. Which of the two uses a closure? How can you tell?
- * 
+ * I notice that counter1 has a function created within a function, and I know that to be a closure, because,
+ * it allows for use of outer function variable later.
  * 3. In what scenario would the counter1 code be preferable? In what scenario would counter2 be better? 
- *
+ * The counter1 scenario would be preferable if you needed to call that variable somewhere else in your code.
+ * The counter2 scenario would be preferable if you wanted a cleaner code; it seems to me that aside from later 
+ * variable referencing with counter1, the two seem to hold the same purpose.
 */
 
 // counter1 code
